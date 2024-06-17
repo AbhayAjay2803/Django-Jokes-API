@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title> Jokes Result </title>
+    </head>
+    <body>
+        <h1> Jokes </h1>
+        <div style="text-align: center; ">
+            {% for joke in jokes%}
+            <p>{{joke.joke}}</p>
+            {% endfor %}
+        </div>
+        </body>
+</html>

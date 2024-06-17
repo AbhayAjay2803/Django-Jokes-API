@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Fetch Jokes</title>
+    </head>
+    <body>
+    <h1>
+        Fetch Jokes
+    </h1>
+    <form method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type = "submit"> Submit </button>
+    </form>
+</body>
+</html>
